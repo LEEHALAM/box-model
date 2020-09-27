@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: BM;
+  src: url("../fonts/BMJUA_otf.otf");
+}
+
+p,
+a {
+  font-family: BM;
+}
+
+p {
+  color: #58595b;
+}
+
+body,
+p {
+  margin: 0;
+}
+
+body {
+  background-color: #f0e8d9;
+}
+
+.minjog {
+  font-size: 64px;
+  margin: 75px auto 30px auto;
+  text-align: center;
+}
+
+.nun {
+  font-size: 32px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.wrapped {
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 300px;
+}
+
+.jpg {
+  width: 300px;
+  height: 200px;
+  vertical-align: top;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.title {
+  font-size: 32px;
+}
+.content {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: #0000ee;
+  font-size: 16px;
+}
